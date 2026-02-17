@@ -1,2 +1,1 @@
-# hangman-asm
-A basic version of hangman written in NASM assembly
+`nasm -f elf64 -o hangman.o hangman.asm && ld -o hangman hangman.o`
